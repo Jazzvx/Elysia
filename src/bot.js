@@ -26,7 +26,7 @@ const bot = new Client(),
 
 	// Connect bot to discord API
 	const token = bot.config.token;
-	bot.login(token).catch(e => bot.logger.error(e.message));
+	bot.login('MTAyNDcxNjQ2NTc2NjY2MjE0NA.Gxgrzz.C4Je62IwK9SMQnk4gurLCY3V96qjsnGJ5tCAXw').catch(e => bot.logger.error(e.message));
 })();
 
 // load commands
